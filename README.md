@@ -2,15 +2,24 @@
 
 A new Flutter project.
 
-## Getting Started
+## features
 
-This project is a starting point for a Flutter application.
+this is an online shopping application 
+users can buy online and can view what the new products are
+the application will support almost all payment methods 
+the user also can buy the product by visiting the market, because the application will support location for the user and for the market itself
+user can chat with the employees about the products
+there will be more than one market to buy from it 
+user can only view the products of all markets and check the location of that market
+user will be able to buy online only if he/she has an account
+the application will support dark and light mode 
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+##todo
+adding landing page
+adding on boarding page
+adding authentication login/sign up page
+adding location page
+adding chat
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
