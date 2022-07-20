@@ -1,3 +1,4 @@
+import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:erbil_shopping/src/screen/home_page.dart';
 import 'package:erbil_shopping/src/widgets/colors.dart';
 import 'package:flutter/material.dart';
@@ -15,6 +16,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         theme: ThemeData(primaryColor: primaryColor),
-        home: HomeScreen());
+        home: AnimatedSplashScreen(
+          splash: "images/shop_icon.png",
+          backgroundColor: primaryColor,
+          nextScreen: HomeScreen(),
+          splashTransition: SplashTransition.scaleTransition,
+        ));
   }
 }
